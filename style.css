@@ -1,0 +1,41 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0 auto;
+    padding: 60px 20px;
+    max-width: 640px;
+    text-align: center;
+    color: #8B8B8B;
+    background-color: #FAFAFA;
+    border: 1px solid #d8d4d4;
+    opacity: 1;
+}
+
+.uvod img {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.hlavni-nadpis {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+
+.hlavni-nadpis::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
