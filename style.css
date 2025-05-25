@@ -7,7 +7,7 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 0 20px;
     max-width: 500px;
     text-align: center;
     color: #8B8B8B;
@@ -60,33 +60,35 @@ body {
 
 .pohoda {
     background-color: #8B8B8B;
-    width: 230px;
-    padding: 10px 30px;
-    margin: 0 auto 60px auto;
+    width: 220px;
+    padding: 10px 20px;
+    margin: 0 auto;
     border-radius: 20px;
 }
 
 h2 {
     font-size: 16px;
     color: #000000;
+    margin-top: 60px;
+    margin-bottom: 15px;
 }
 
 .mapa {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 460px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     box-shadow: 0px 4px 6px #407BFF1F;
     border-radius: 10px;
     opacity: 1;
     font-size: 13px;
-    margin: 28px 20px 15px 0;
+    margin: 28px 0 15px 0;
 }
 
 .mapa img {
-    width: 40px;
-    height: 45px;
+    width: 11%;
+    height: auto;
     margin: 28px 29px 20px 0;
 }
 
@@ -94,18 +96,18 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 460px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     box-shadow: 0px 4px 6px #407BFF1F;
     border-radius: 10px;
     opacity: 1;
     font-size: 13px;
-    margin: 28px 20px 15px 0;
+    margin: 28px 0 15px 0px;
 }
 
 .kaktus img {
-    width: 40px;
-    height: 45px;
+    width: 11%;
+    height: auto;
     margin: 28px 29px 20px 0;
 }
 
@@ -113,37 +115,37 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 460px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     box-shadow: 0px 4px 6px #407BFF1F;
     border-radius: 10px;
     opacity: 1;
     font-size: 13px;
-    margin: 28px 20px 15px 0;
+    margin: 28px 0 15px 0;
 }
 
 .letadlo img {
-    width: 40px;
-    height: 45px;
+    width: 11%;
+    height: auto;
     margin: 28px 29px 20px 0;
 }
 
 .palma {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 460px;
-    height: 80px;
+    align-items: center; 
+    width: 100%;
+    height: auto;
     box-shadow: 0px 4px 6px #407BFF1F;
     border-radius: 10px;
     opacity: 1;
     font-size: 13px;
-    margin: 28px 20px 15px 0;
+    margin: 28px 0 15px 0;
 }
 
 .palma img {
-    width: 40px;
-    height: 45px;
+    width: 11%;
+    height: auto;
     margin: 28px 29px 20px 0;
 }
 
@@ -151,18 +153,18 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 460px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     box-shadow: 0px 4px 6px #407BFF1F;
     border-radius: 10px;
     opacity: 1;
     font-size: 13px;
-    margin: 28px 20px 15px 0;
+    margin: 28px 0 15px 0;
 }
 
 .slunecnik img {
-    width: 40px;
-    height: 45px;
+    width: 11%;
+    height: auto;
     margin: 28px 29px 20px 0;
 }
 
@@ -170,17 +172,101 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 460px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     box-shadow: 0px 4px 6px #407BFF1F;
     border-radius: 10px;
     opacity: 1;
     font-size: 13px;
-    margin: 28px 20px 15px 0;
+    margin: 28px 0 15px 0;
 }
 
 .karavan img {
-    width: 40px;
-    height: 45px;
+    width: 11%;
+    height: auto;
     margin: 28px 29px 20px 0;
 }
+
+.ramecek-popis {
+    width: 69%;
+    height: auto;
+    font-size: 13px;
+    text-align: left;
+}
+
+@media screen and (min-width: 640px) {
+    body {
+    max-width: 1100px;
+    }
+
+    .odkazy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dobrodruzstvi {
+        margin: 30px 10px 0 auto;
+    }
+
+    .pohoda {
+        margin: 30px auto 0 10px;
+    }
+
+    h2 {
+        margin-top: 80px;
+        margin-bottom: 17px;
+    }
+
+    .služby-popis {
+        margin: 0;
+    }
+
+    .delegati-popis {
+        margin: 0;
+    }
+
+    .ramecky {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mapa,
+    .kaktus,
+    .letadlo,
+    .palma,
+    .slunecnik,
+    .karavan {
+        margin-top: 40px;
+        margin-bottom: 0;
+        flex: 1 1 calc(100% / 3);
+        display: block;
+    }
+
+    .palma,
+    .slunecnik,
+    .karavan {
+        margin-bottom: 59px;
+    }
+
+    .mapa img,
+    .kaktus img,
+    .letadlo img,
+    .palma img,
+    .slunecnik img,
+    .karavan img {
+        width: 20%;
+        height: auto;
+        margin: 0;
+    }
+
+    .ramecek-popis {
+        width: 100%;
+        height: auto;
+        padding: 20px 15px;
+        margin: 0;
+        text-align: center;
+    }
+}   
