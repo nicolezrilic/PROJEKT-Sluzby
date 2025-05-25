@@ -3,11 +3,12 @@ html { box-sizing: border-box; }
 
 body {
     font-family: "Montserrat", sans-serif;
+    font-size: 16px;
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0 auto;
     padding: 60px 20px;
-    max-width: 640px;
+    max-width: 500px;
     text-align: center;
     color: #8B8B8B;
     background-color: #FAFAFA;
@@ -38,4 +39,148 @@ body {
     margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.tlacitko {
+    display: block;
+    height: 40px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dobrodruzstvi {
+    background-color: #407BFF;
+    width: 195px;
+    padding: 10px 30px;
+    margin: 30px auto 10px auto;
+    border-radius: 20px;
+}
+
+.pohoda {
+    background-color: #8B8B8B;
+    width: 230px;
+    padding: 10px 30px;
+    margin: 0 auto 60px auto;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #000000;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 80px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 13px;
+    margin: 28px 20px 15px 0;
+}
+
+.mapa img {
+    width: 40px;
+    height: 45px;
+    margin: 28px 29px 20px 0;
+}
+
+.kaktus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 80px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 13px;
+    margin: 28px 20px 15px 0;
+}
+
+.kaktus img {
+    width: 40px;
+    height: 45px;
+    margin: 28px 29px 20px 0;
+}
+
+.letadlo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 80px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 13px;
+    margin: 28px 20px 15px 0;
+}
+
+.letadlo img {
+    width: 40px;
+    height: 45px;
+    margin: 28px 29px 20px 0;
+}
+
+.palma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 80px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 13px;
+    margin: 28px 20px 15px 0;
+}
+
+.palma img {
+    width: 40px;
+    height: 45px;
+    margin: 28px 29px 20px 0;
+}
+
+.slunecnik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 80px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 13px;
+    margin: 28px 20px 15px 0;
+}
+
+.slunecnik img {
+    width: 40px;
+    height: 45px;
+    margin: 28px 29px 20px 0;
+}
+
+.karavan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 80px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 13px;
+    margin: 28px 20px 15px 0;
+}
+
+.karavan img {
+    width: 40px;
+    height: 45px;
+    margin: 28px 29px 20px 0;
 }
