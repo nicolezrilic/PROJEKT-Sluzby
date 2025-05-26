@@ -195,8 +195,9 @@ h2 {
 }
 
 @media screen and (min-width: 640px) {
+
     body {
-    max-width: 1100px;
+        max-width: 1100px;
     }
 
     .odkazy {
@@ -239,7 +240,6 @@ h2 {
     .palma,
     .slunecnik,
     .karavan {
-        margin-top: 40px;
         margin-bottom: 0;
         flex: 1 1 calc(100% / 3);
         display: block;
@@ -259,19 +259,21 @@ h2 {
     .karavan img {
         width: 20%;
         height: auto;
-        margin: 0;
+        margin: 40px auto 20px auto; 
     }
 
     .ramecek-popis {
         width: 100%;
         height: auto;
-        padding: 20px 15px;
+        padding-bottom: 15px;
         margin: 0;
         text-align: center;
     }
 
-@media screen and (min-width: 1100px) {
-     body {
+@media screen and (min-width: 1100px) and (max-width: 1440px) {
+     
+    body {
+        max-width: 1440px;
         padding: 0 80px 60px 80px;
         margin: 0;
     }
@@ -282,10 +284,8 @@ h2 {
     }
 
     .uvod-PC-verze {
-        flex: 1 1 41%;
+        flex: 1 1 47%;
         text-align: left;
-        margin-right: 60px;
-        margin-bottom: 147px;
     }
 
     .hlavni-nadpis {
@@ -321,7 +321,7 @@ h2 {
         display: block;
         width: 41%;
         height: auto;
-        margin: 60px auto 80px auto;
+        margin: 60px 32.5px 0 92.5px;
     }
 
     .sluzby {
@@ -335,7 +335,10 @@ h2 {
         flex: 1 1 41%;
         text-align: left;
         margin-left: 60px;
-        margin-bottom: 118px;
+    }
+
+    .služby-nadpis {
+        margin-top: 0;
     }
     
     .ramecky {
@@ -365,9 +368,23 @@ h2 {
         padding: 20px 15px 40px 15px;
     }
 
+    .delegati {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
 
-
-
+    .delegati-PC-verze {
+        flex: 1 1 41%;
+        text-align: left;
+        margin: 0 60px 97px 0;
+    }
+    
+    /*rozestup mezi sekcemi*/
+    .uvod,
+    .sluzby {
+        margin-bottom: 80px;
+    }
 
 
 }   
